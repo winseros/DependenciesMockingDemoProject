@@ -34,7 +34,7 @@ Integration tests output the application logs. That helps to ensure you've logge
 
 ### External HTTP mock
 
-The project uses the [Open Weather Map Api](https://openweathermap.org/api). The tests don't call the real service but use its [mock](DependenciesMockingDemoProject.Int/Controllers/WeatherForecastControllerTest.cs) instead.
+The project uses the [Open Weather Map Api](https://openweathermap.org/api). The tests don't call the real service but use its [mock](DependenciesMockingDemoProject.Int/Controllers/WeatherForecastControllerTest.cs#L56-L62) instead.
 
 ## Running the project
 
