@@ -1,0 +1,1 @@
+/var/opt/mssql-init/init-server.sh & /opt/mssql/bin/sqlservr
