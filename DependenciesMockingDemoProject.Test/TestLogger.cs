@@ -34,17 +34,17 @@ namespace DependenciesMockingDemoProject.Test
         {
             public void Configure(ConsoleLoggerOptions options)
             {
-                options.FormatterName = TestConsoleFormatter.Name;
+                options.FormatterName = TestConsoleFormatter.LoggerName;
             }
         }
     }
 
     public class TestConsoleFormatter : ConsoleFormatter
     {
-        public static readonly string Name = "TestFormatter";
+        public static readonly string LoggerName = "TestFormatter";
 
         public TestConsoleFormatter()
-            : base(Name)
+            : base(LoggerName)
         {
         }
 

@@ -38,7 +38,7 @@ namespace DependenciesMockingDemoProject.Web.DataLayer
                 logging.AddConfiguration(appConfiguration.GetSection("Logging"));
                 logging.AddConsole();
             });
-            services.AddDataLayer(appConfiguration.GetSection("Database"));
+            services.AddDataLayer(appConfiguration);
 
             return services;
         }
